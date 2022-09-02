@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --port=5000",
+    "dev": "nuxt dev --port=5001",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
@@ -11,10 +11,12 @@
     "nuxt-windicss": "^2.5.1"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
     "element-plus": "^2.2.15",
     "mlly": "^0.5.14",
     "path": "^0.12.7",
     "sass": "^1.54.6",
-    "vite-plugin-pug": "^0.3.1"
+    "vite-plugin-pug": "^0.3.1",
+    "vue-window-size": "^1.1.2"
   }
 }

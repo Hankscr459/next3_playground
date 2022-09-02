@@ -291,7 +291,7 @@
   resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
   integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
 
-"@element-plus/icons-vue@^2.0.6":
+"@element-plus/icons-vue@^2.0.6", "@element-plus/icons-vue@^2.0.9":
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/@element-plus/icons-vue/-/icons-vue-2.0.9.tgz#b7777c57534522e387303d194451d50ff549d49a"
   integrity sha512-okdrwiVeKBmW41Hkl0eMrXDjzJwhQMuKiBOu17rOszqM+LS/yBYpNQNV5Jvoh06Wc+89fMmb/uhzf8NZuDuUaQ==
@@ -4919,6 +4919,13 @@ vue-router@^4.1.3:
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
+vue-window-size@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/vue-window-size/-/vue-window-size-1.1.2.tgz#a92a1d7cdc260d08a6ac8a19a7993b85736a0bdd"
+  integrity sha512-7TBPWXjvn6Kwmbl1OAlI+O0wj2CSlryqeVPo5AnglW/nvuXxnW3ehRn42Epk2OjXNK/VhO99JsXciFhqyM2tFQ==
+  dependencies:
+    window-resize-subject "^1.5.0"
+
 vue@^3.2.37:
   version "3.2.37"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.37.tgz#da220ccb618d78579d25b06c7c21498ca4e5452e"
@@ -5010,6 +5017,11 @@ windicss@^3.5.6:
   version "3.5.6"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.5.6.tgz#30a34da76894d952a96c9a1921f2e91e13932183"
   integrity sha512-P1mzPEjgFMZLX0ZqfFht4fhV/FX8DTG7ERG1fBLiWvd34pTLVReS5CVsewKn9PApSgXnVfPWwvq+qUsRwpnwFA==
+
+window-resize-subject@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/window-resize-subject/-/window-resize-subject-1.5.0.tgz#a866128119c3899a8c03cfd1b86decf883e595a4"
+  integrity sha512-r+zXdtumr1+De51Lb3P561K+3t6PvEVXq+dTaEhikNY8Hj0UuzkYL3v9jo5TLpPaL7s9gkaX3Sb643HqYT7uSA==
 
 with@^7.0.0:
   version "7.0.2"

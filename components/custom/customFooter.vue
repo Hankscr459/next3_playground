@@ -1,3 +1,3 @@
 <template lang="pug">
-span Some *custom* layout Footer
+el-footer(style="background-color: var(--el-color-primary-light-3);") Some *custom* layout Footer
 </template>

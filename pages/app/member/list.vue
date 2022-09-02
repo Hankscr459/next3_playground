@@ -1,9 +1,9 @@
 <template lang="pug">
-div
+div(ref="test2")
   h1 Member List
   //- div(v-if="pending") Loading
   //- div(v-else)
-  h1 data
+  h1 {{show}}
   pre {{data}}
   h2 {{account}}
   input(v-model="account")
@@ -15,6 +15,9 @@ div
 </template>
 
 <script setup>
+// state
+const show = useState('show', () => true);
+// const test2 = useState('test', () => null);
 // firstInit
 // const { data, pending, error, refresh } = await useAsyncData('yourSales', () => $fetch('https://mei-cha-shop-bbqkdcnkwa-de.a.run.app/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%E5%A4%A9%E5%90%8E%E7%B5%84'));
 // const { data, pending, error, refresh } = await useData('yourSales', '/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%E5%A4%A9%E5%90%8E%E7%B5%84');
@@ -22,8 +25,16 @@ div
 const data = await useLazyEffect('/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%E5%A4%A9%E5%90%8E%E7%B5%84');
 // console.log('data2: ', data);
 
+// const { data, refresh } = await useFetch('/api/user')
+// watch(() => route.query, () => refresh())
+
+// onMounted(() => {
+//   console.log('tesst: ', test2.value.offsetWidth)
+// })
+
 // const route = useRoute();
 // console.log('route: ', route.fullPath);
+
 
 // global func
 // const nuxtApp = useNuxtApp();

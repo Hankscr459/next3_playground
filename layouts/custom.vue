@@ -1,6 +1,12 @@
 <template lang="pug">
-div
+div(ref="test")
   CustomHeader
-  slot
+  el-container(style="height: 100vh")
+    aside-bar
+    el-main
+      slot
   CustomFooter
 </template>
+<script setup>
+
+</script>

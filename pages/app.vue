@@ -1,6 +1,7 @@
 <template lang="pug">
 NuxtLayout(:name="layout")
-  NuxtPage
+  el-container
+    NuxtPage
 </template>
 
 <script setup>
