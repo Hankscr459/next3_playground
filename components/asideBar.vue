@@ -36,7 +36,7 @@ const isCollapseMenu = useState('isCollapseMenu', () => false);
 
 watch(() => width.value, () => {
   if (width.value <= 900) {
-    isCollapseMenu.value = true
+    isCollapseMenu.value = true;
   } else {
     isCollapseMenu.value = false;
   }
