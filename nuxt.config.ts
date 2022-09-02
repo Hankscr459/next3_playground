@@ -39,10 +39,14 @@ export default defineNuxtConfig({
       apiBase: process.env.api,
     },
   },
-  css: ['vuetify/lib/styles/main.sass'],
+  css: ['element-plus/dist/index.css'], 
+  // build: {
+  //   transpile: ['vuetify'],
+  // },
   build: {
-    transpile: ['vuetify'],
+    transpile: ['element-plus'],
   },
+  buildModules: ["nuxt-windicss"],
   vite: {
     define: {
       'process.env.DEBUG': false,

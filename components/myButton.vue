@@ -1,5 +1,5 @@
 <template lang="pug">
-v-btn(color="secondary") Click Me
+el-button(type="primary") Click Me
 </template>
   
 <script setup>

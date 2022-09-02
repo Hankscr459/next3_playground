@@ -1,7 +1,6 @@
 <template lang="pug">
-v-container
+div
   h1 Create Member
-  v-btn(color="info") Click
 </template>
 
 <script setup>

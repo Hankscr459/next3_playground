@@ -1,16 +1,16 @@
 <template lang="pug">
-v-container
+div
   h1 Member List
   //- div(v-if="pending") Loading
   //- div(v-else)
   h1 data
   pre {{data}}
   h2 {{account}}
-  v-text-field(v-model="account")
+  input(v-model="account")
   h2 {{counter}}
-  v-btn(color="info", @click="counter++") +
-  v-btn(color="secondary", @click="counter--") -
-  v-btn(color="primary", @click="showLazyValue") Click
+  button(@click="counter++") +
+  button(@click="counter--") -
+  button(@click="showLazyValue") Click
   pre(v-if="showLazyData") {{lazyList}}
 </template>
 
