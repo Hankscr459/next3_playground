@@ -1,7 +1,7 @@
 <template lang="pug">
 div(ref="test")
   CustomHeader
-  el-container(style="men-Height: 100vh")
+  el-container(style="min-Height: 100vh")
     aside-bar
     el-main
       slot
