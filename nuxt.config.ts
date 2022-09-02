@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         path: '/',
         file: resolve(__dirname, 'pages/app/order/list.vue'),
       });
-    }
+    },
   },
 
   app: {
