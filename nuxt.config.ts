@@ -39,7 +39,7 @@ export default defineNuxtConfig({
       apiBase: process.env.api,
     },
   },
-  css: ['element-plus/dist/index.css'], 
+  css: ['element-plus/dist/index.css', '@/assets/styles/main.sass'], 
   // build: {
   //   transpile: ['vuetify'],
   // },

@@ -15,6 +15,9 @@ div(ref="test2")
 </template>
 
 <script setup>
+definePageMeta({
+ layout: 'custom',
+});
 // state
 const show = useState('show', () => true);
 // const test2 = useState('test', () => null);
@@ -41,7 +44,7 @@ const data = await useLazyEffect('/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%
 // console.log(nuxtApp.$hello('namee'));
 
 // Head
-useHead({ title: 'MemberList | My App' });
+useHead({ title: '會員清單 | My App' });
 
 
 // state

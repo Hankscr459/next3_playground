@@ -4,6 +4,9 @@ div
 </template>
 
 <script setup>
+// Head
+useHead({ title: '新增會員 | My App' });
+
 definePageMeta({
   layout: 'custom',
 });
