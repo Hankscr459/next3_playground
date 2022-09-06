@@ -2,6 +2,9 @@
 el-menu.el-menu-vertical-demo(
   default-active="1",
   :collapse="isCollapseMenu",
+  background-color="var(--el-text-color-primary)",
+  text-color="var(--el-color-white)"
+  active-text-color="var(--el-color-warning-light-3)",
 )
   el-sub-menu(index="1")
     template(#title)
@@ -9,7 +12,7 @@ el-menu.el-menu-vertical-demo(
         Avatar
       span 會員管理
     el-menu-group
-      //- template(#title)
+      //- template(#title) 
       //-   span Group One
       //- el-menu-item-group(title="Group One")
       el-menu-item(index="1-1", @click="goToRoute('/app/member/list')") 會員清單

@@ -4,14 +4,13 @@ el-row
     el-menu.el-menu-demo(
       mode="horizontal",
       :ellipsis="false",
-      text-color="#fff",
+      text-color="var(--el-color-white)",
       background-color="#545c64",
       active-text-color="#ffd04b",
     )
       img.navbar__logo-box(
         src="@/assets/images/logo.png",
       )
-      
       .flex-grow
       el-sub-menu(index="1")
         template(#title)

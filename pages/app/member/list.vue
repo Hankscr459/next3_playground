@@ -20,6 +20,8 @@ definePageMeta({
 });
 // state
 const show = useState('show', () => true);
+// const value2 = useState('show2', () => 5);
+
 // const test2 = useState('test', () => null);
 // firstInit
 // const { data, pending, error, refresh } = await useAsyncData('yourSales', () => $fetch('https://mei-cha-shop-bbqkdcnkwa-de.a.run.app/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%E5%A4%A9%E5%90%8E%E7%B5%84'));
@@ -30,6 +32,12 @@ const data = await useLazyEffect('/v1/sale/%E6%89%8B%E5%B7%A5%E9%A3%84%E7%9C%89%
 
 // const { data, refresh } = await useFetch('/api/user')
 // watch(() => route.query, () => refresh())
+
+// const value3 = computed({
+//   get() {
+//     return 10;
+//   },
+// });
 
 // onMounted(() => {
 //   console.log('tesst: ', test2.value.offsetWidth)
